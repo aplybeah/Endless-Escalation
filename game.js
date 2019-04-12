@@ -17,6 +17,7 @@ const config = {
 const game = new Phaser.Game(config);
 function preload() {
   this.load.setBaseURL("http://labs.phaser.io");
+  this.load.image("sky", "/assets/sky_purple.png");
 }
 function create() {}
 function update() {}
